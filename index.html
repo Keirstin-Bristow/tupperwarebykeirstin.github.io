@@ -3,14 +3,39 @@
     <head>
         <title>Tupperware By Keirstin</title>
         <link rel="stylesheet" href="./style/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body onload="redirect()">
-        redirecting...
+    <body>
+        <img id="bg" src="./style/img/bee-background.jpg" draggable="false" oncontextmenu="return false">
+        <h1 id="title">Tupperware By Keirstin</h1>
+        <center>
+
+            <div id="bio"class="bio">Welcome everyone!! My name is Keirstin Bristow, and I'm your Tupperware consultant! I am a mother of two and have been with my amazing other half for eight years. I am taking a break from nursing and selling Tupperware to pay for the bills while I'm on sabbatical!! I've been with Tupperware since January 2021 and was promoted to Executive Manager with Tupperware in April 2022!! I love our products and what I do!!</div>
+        <span class="button-container">
+            <button class="button" onclick='btnClick("https://kebristow.my.tupperware.com")'>
+                <img onclick='btnClick("http://kebristow.my.tupperware.com")' src="./style/img/tp.png">
+            </button>
+            <button class="button" onclick='btnClick("https://www.facebook.com/groups/419557896028749/")'>
+                <img  onclick='btnClick("https://www.facebook.com/groups/419557896028749/")' src="./style/img/fp.png">
+            </button>
+            <button class="button" onclick='btnClick("https://kebristow.my.tupperware.com/enroll")'>
+                <img onclick='btnClick("https://kebristow.my.tupperware.com/enroll")' src="./style/img/jn.png">
+            </button>
+        </span>
+        
+        <h1 id="socials">
+            Contact Me!
+            <br>
+            Phone Number: (605) 393-7048
+            <br>
+            Email: tupperkeirstin@yahoo.com
+        </h1>
+    </center>
+        
     </body>
-    <script>
-        function redirect()
-        {
-            location.replace("https://kebristow.my.tupperware.com")
+    <script type="text/javascript">
+        function btnClick(url) {
+            window.open(url, '_blank')
         }
-        </script>
+    </script>
 </html>
